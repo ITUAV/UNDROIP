@@ -18,7 +18,7 @@ global img1;
 global img2;
 
 disp(m);
-no_of_matches = rawi_bathy_analysis (img1, img2,  'm1', m(1), 'm2', m(2),  'x_min', .5, 'y_min', .5, 'z_min', 1.5);
+no_of_matches = bathy_analysis (img1, img2,  'm1', m(1), 'm2', m(2),  'x_min', .5, 'y_min', .5, 'z_min', 1.5);
 % no_of_matches= sin(m(1)*m(2));
 opt_val = 1/(no_of_matches +1);
 
